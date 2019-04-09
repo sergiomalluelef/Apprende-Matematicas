@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomenus"
+    tools:context="com.example.samsung.game.MainGame"
+    >
+
+    <RelativeLayout
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/titulo"
+            android:layout_marginLeft="97dp"
+            android:layout_marginStart="97dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/iconoPlay"
+            android:layout_alignStart="@+id/iconoPlay"
+            android:id="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imgn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageLogin"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/nube" />
+
+        <ImageView
+            android:id="@+id/imgn2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nube"
+            android:layout_below="@+id/imageLogin"
+            android:layout_toLeftOf="@+id/imageView7"
+            android:layout_toStartOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imgn1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgn"
+            android:layout_toEndOf="@+id/iconoPlay"
+            android:layout_toRightOf="@+id/iconoPlay"
+            android:src="@drawable/nube" />
+
+
+        <ImageView
+            android:id="@+id/iconoPlay"
+            android:layout_width="201dp"
+            android:layout_height="83dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_gravity="center"
+            android:layout_marginBottom="21dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/btnFacebook"
+            android:layout_toRightOf="@+id/btnFacebook"
+            android:src="@drawable/botonjugar" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="220dp"
+            android:layout_height="223dp"
+            android:src="@drawable/personaje"
+            android:layout_alignTop="@+id/imgn1"
+            android:layout_alignRight="@+id/imageLogin"
+            android:layout_alignEnd="@+id/imageLogin"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/btnFacebook"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/facebook_icon" />
+
+        <ImageView
+            android:id="@+id/imageLogin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/usuario" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

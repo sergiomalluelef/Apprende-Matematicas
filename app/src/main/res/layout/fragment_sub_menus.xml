@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90ffffff"
+    tools:context="com.example.samsung.game.Fragments.SubMenusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:id="@+id/imgUnidadUno"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/numerouno" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:id="@+id/imgnumdos"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/numerodos"/>
+
+                <ImageView
+                    android:id="@+id/imgdosbloqueado"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/nivelbloqueado"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/numerotres" />
+
+                <ImageView
+                    android:id="@+id/imgtresbloqueado"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/nivelbloqueado"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/numerocuatro" />
+
+                <ImageView
+                    android:id="@+id/imgcuatrobloqueado"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/nivelbloqueado"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/numerocinco" />
+
+                <ImageView
+                    android:id="@+id/imgcincobloqueado"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/nivelbloqueado"
+                    android:visibility="visible"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>
